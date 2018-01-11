@@ -21,7 +21,7 @@
 
 * En la definición de modelo relacional nos podemos quedar con la idea de tablas que tienen columnas para describir los datos que están relacionados entre si.
 #### Ejemplo modelo relacional:
-![Modelo Relacional](../assets/db/modelo-relacional.jpg)
+![Modelo Relacional](https://github.com/nisnardi/comunidad-it-js/raw/master/assets/db/modelo-relacional.jpg)
 
 * Para que sea modelo relacional debe cumplir con los [siguientes requisitos](https://es.wikipedia.org/wiki/12_reglas_de_Codd)
 * Entre los motores de bases de datos relacionales más conocidas encontramos a [SQL Server](https://www.microsoft.com/es-es/sql-server/sql-server-2016), [MySQL](https://www.mysql.com/) y [PostgreSQL](https://www.postgresql.org/) entre otras
@@ -39,26 +39,26 @@
 ### Modelo NoSQL
 * Se conoce como [NoSQL (Not Only SQL)](https://es.wikipedia.org/wiki/NoSQL) al grupo de bases de datos que no son relacionales
 * Dentro de esta clasificación se encuentran las bases de clave/valor, orientadas a documentos, grafos, de grandes columnas
-![NoSQL](../assets/db/nosql.png)
+![NoSQL](https://github.com/nisnardi/comunidad-it-js/blob/master/assets/db/nosql.png)
 * Este tipo de bases de datos escala de forma horizontal
 * Podemos utilizar muchas máquinas chiquitas para crecer y satisfacer las necesidades de los negocios actuales
 
-![Escalar](../assets/db/escalar.png)
+![Escalar](https://github.com/nisnardi/comunidad-it-js/raw/master/assets/db/escalar.png)
 
 #### Clave/valor
-* Las bases de datos de `clave/valor` guardan valores en formato de diccionario o hash utilizando una clave como índice y su valor. 
+* Las bases de datos de `clave/valor` guardan valores en formato de diccionario o hash utilizando una clave como índice y su valor.
 
-![Clave/Valor](../assets/db/key-value.png)
+![Clave/Valor](https://github.com/nisnardi/comunidad-it-js/raw/master/assets/db/key-value.png)
 
 #### Orientadas a documentos
 * Las base de datos `orientadas a documentos` es bastante parecída a las de `clave/valor`.
 * La diferencia recide principalmente en en la complejidad del modelo de dato
 * Clave/valor tiene un modelo de lo más simple
-![SQL v NoSQL](../assets/db/SQLvsNoSQL.png)
+![SQL v NoSQL](https://github.com/nisnardi/comunidad-it-js/raw/master/assets/db/SQLvsNoSQL.png)
 
 * Documento puede tener un modelo de documento complejo
 * Muchos de estos motores utilizan JSON/BSON para guardar los datos
-![NoSQL](../assets/db/document.svg)
+![NoSQL](https://github.com/nisnardi/comunidad-it-js/raw/master/assets/db/document.svg?sanitize=true)
 * Entre los motores más conocidos de este tipo se encuentra MongoDB
 
 #### Grafos
@@ -67,14 +67,14 @@
 * Las podemos utilizar por ejemplo para guardar puntos de un camino, relaciones de amigos, familia, o cualquier tipo de dato que represente alguna relación
 * Entre los motores más conocidos de este tipo se encuentra Neo4j
 
-![Grafo](../assets/db/graph.png)
+![Grafo](https://github.com/nisnardi/comunidad-it-js/raw/master/assets/db/graph.png)
 
 #### Grandes columnas/BigTable
 * Este tipo de familia de bases de datos está orientada a grandes cantidades de datos
 * Lo datos son almacenados en columnas
 * En una columna tiene múltiples datos
 * Entre los motores más conocidos de este tipo se encuentra Cassandra o HBase
-![Base de datos de columnas](../assets/db/column-oriented-database.jpg)
+![Base de datos de columnas](https://github.com/nisnardi/comunidad-it-js/raw/master/assets/db/column-oriented-database.jpg)
 
 * Podemos informarnos más sobre las diferencias entre SQL y NoSQL en el [siguiente link](https://blog.pandorafms.org/es/nosql-vs-sql-diferencias-y-cuando-elegir-cada-una/)
 
